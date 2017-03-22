@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jio-backend
+  host: jio
+  disk_quota: 1024M
+  services:
+  - Driver Behavior-jio
+  - Context Mapping-jio
+  - jio-backend-cloudantNoSQLDB
